@@ -68,29 +68,99 @@
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1 text-base gap-8">
                         <li><a> <span class="text-primary-color">Home</span> </a></li>
-                            <li><a>About</a></li>
-                            <li><a>Pages</a></li>
-                            <li><a>Blog</a></li>
-                            <li><a>Contact</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
                     </ul>
                 </div>
                 <div class="navbar-end gap-6">
                     <span class="hidden lg:inline">
                         <i class="fa-solid fa-magnifying-glass  "></i>
                     </span>
-                        
+
                     <button class="bg-primary-color text-white px-6 py-4 rounded-lg text-xl font-bold">
                         Get Ticket
                     </button>
-                    
+
                 </div>
             </div>
         </nav>
 
     </header>
 
-    <main>
+    <main class="container mx-auto p-2">
+        <!-- banner section -->
+        <div>
+            <div class="carousel w-full rounded-xl">
+                <!-- slide 01 -->
+                <div id="slide1"
+                    class="carousel-item relative w-full bg-[url(./images/bnr-01.png)] bg-cover bg-center bg-no-repeat flex items-center justify-center lg:py-96 py-28">
+                    <div
+                        class="absolute inset-x-0 lg:left-5 bottom-0 flex justify-center lg:justify-start -translate-y-1/2 transform gap-4">
+                        <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
+                        <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+                    <div
+                        class="bg-black absolute text-white p-8 rounded-2xl lg:w-2/4 bottom-3 right-4  hidden lg:inline-block">
+                        <h3 class="text-2xl font-extrabold mb-4">
+                            Meet all the heroes from the field
+                        </h3>
+                        <p class="text-base font-medium text-[#FFFFFF99]">
+                            Hockey is a fast-paced sport played on ice or field, where two teams use sticks to shoot a puck or ball into the opponent’s goal.
+                        </p>
+                    </div>
+                </div>
 
+                <!-- slide 02 -->
+                <div id="slide2"
+                    class="carousel-item relative w-full  bg-[url(./images/4.png)] bg-cover bg-no-repeat flex items-center justify-center lg:py-96 py-28">
+                    <div
+                        class="absolute inset-x-0 lg:left-5 bottom-0 flex justify-center lg:justify-start -translate-y-1/2 transform gap-4">
+                        <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+                        <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+                    <div
+                        class="bg-black absolute text-white p-8 rounded-2xl lg:w-2/4 bottom-3 right-4  hidden lg:inline-block">
+                        <h3 class="text-2xl font-extrabold mb-4">
+                            Meet all the heroes from the field
+                        </h3>
+                        <p class="text-base font-medium text-[#FFFFFF99]">
+                            Hockey is a fast-paced sport played on ice or field, where two teams use sticks to shoot a puck or ball into the opponent’s goal.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- slide 03 -->
+                <div id="slide3"
+                    class="carousel-item relative w-full  bg-[url(./images/2.png)] bg-cover bg-no-repeat flex items-center justify-center lg:py-96 py-28">
+                    <div
+                        class="absolute inset-x-0 lg:left-5 bottom-0 flex justify-center lg:justify-start -translate-y-1/2 transform gap-4">
+                        <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
+                        <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+                    <div
+                        class="bg-black absolute text-white p-8 rounded-2xl lg:w-2/4 bottom-3 right-4  hidden lg:inline-block">
+                        <h3 class="text-2xl font-extrabold mb-4">
+                            Meet all the heroes from the field
+                        </h3>
+                        <p class="text-base font-medium text-[#FFFFFF99]">
+                            Hockey is a fast-paced sport played on ice or field, where two teams use sticks to shoot a puck or ball into the opponent’s goal.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- sm device text area -->
+            <div class="bg-black text-white p-4 rounded-2xl lg:hidden mt-4 text-center">
+                <h3 class="text-xl font-extrabold mb-4">
+                    Meet all the heroes from the field
+                </h3>
+                <p class="text-base font-medium text-[#FFFFFF99]">
+                    Hockey is a fast-paced sport played on ice or field, where two teams use sticks to shoot a puck or ball into the opponent’s goal.
+                </p>
+            </div>
+        </div>
     </main>
 
 
